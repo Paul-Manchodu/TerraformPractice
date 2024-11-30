@@ -3,7 +3,7 @@ module "ec2_instance" {
 
   name = "spdinakar"
 
-  instance_type         = "t2.micro"
+  instance_type         = "t3.micro"
   key_name               = "sukumar"
   monitoring             = true
 
