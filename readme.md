@@ -1,0 +1,1 @@
+in this practice session created iam user, ec2 instance, s3bucket using terraform
