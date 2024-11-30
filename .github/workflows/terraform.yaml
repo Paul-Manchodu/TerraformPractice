@@ -31,8 +31,8 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.paul_works_aws1234 }}
       run: terraform plan
 
-    - name: Terraform Apply
+    - name: Terraform destroy
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.paul_works_aws }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.paul_works_aws1234 }}
-      run: terraform apply -auto-approve
+      run: terraform destroy -auto-approve
